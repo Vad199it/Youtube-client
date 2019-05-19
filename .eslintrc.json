@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "document": false
+  },
+  "rules": {
+    "no-shadow": 0,
+    "consistent-return": 0,
+    "no-restricted-globals": ["error", "fdescribe"],
+    "no-console": "off"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  }
+}
